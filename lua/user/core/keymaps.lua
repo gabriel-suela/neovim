@@ -10,7 +10,7 @@ end)
 map("v", "J", ":m '>+1<CR>gv=gv", { desc = "moves lines down in visual selection" })
 map("v", "K", ":m '<-2<CR>gv=gv", { desc = "moves lines up in visual selection" })
 
-map("n", "<leader>ee", "<cmd>Neotree toggle<CR>")
+map("n", "<leader>e", "<cmd>Neotree toggle<CR>")
 
 map("n", "J", "mzJ`z")
 map("n", "<C-d>", "<C-d>zz", { desc = "move down in buffer with cursor centered" })
