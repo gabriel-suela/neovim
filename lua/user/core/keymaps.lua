@@ -9,6 +9,7 @@ end)
 
 map("v", "J", ":m '>+1<CR>gv=gv", { desc = "moves lines down in visual selection" })
 map("v", "K", ":m '<-2<CR>gv=gv", { desc = "moves lines up in visual selection" })
+map("n", "<leader>qq", ":wqa<CR>")
 
 map("n", "<leader>e", "<cmd>Neotree toggle<CR>")
 
